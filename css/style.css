@@ -25,9 +25,15 @@
   background-color: #272c34;
 }
 
+.flex{
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+
 .header {
   height: 70px;
-  background-color: aqua;
+  background-color:#628BF7;
   display: flex;
 }
 
@@ -35,6 +41,7 @@
   height: 30px;
   align-self: center;
   display: flex;
+  height: 100%;
 }
 
 .box-logo {
