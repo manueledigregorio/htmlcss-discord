@@ -4,38 +4,33 @@
   box-sizing: border-box;
   font-size: 1.1rem;
 }
- /*TAG GENERALI - INIZIO HEADER*/ 
- ul{
+/*TAG GENERALI - INIZIO HEADER*/
+ul {
   list-style: none;
 }
 
-a{
+a {
   text-decoration: none;
   color: white;
-
 }
 
-a:hover{
+a:hover {
   text-decoration: none;
   color: gainsboro;
-   
-
 }
-.btn-small{
+.btn-small {
   background-color: white;
   padding: 7px 16px;
   border-radius: 25px;
   text-align: center;
-  
 }
 
-.black{
+.black {
   color: #272c34;
 }
-.white{
+.white {
   color: white;
 }
-
 
 .debug-blu {
   background-color: cornflowerblue;
@@ -47,8 +42,6 @@ a:hover{
   background-color: goldenrod;
 }
 
-
-
 .debug-grey {
   background-color: gainsboro;
 }
@@ -56,7 +49,7 @@ a:hover{
   background-color: #272c34;
 }
 
-.flex{
+.flex {
   display: flex;
   justify-content: center;
   align-self: center;
@@ -64,15 +57,13 @@ a:hover{
 
 .header {
   height: 70px;
-  background-color:#628BF7;
+  background-color: #628bf7;
   display: flex;
+ 
 }
 
 .link {
-  height: 30px;
-  align-self: center;
   display: flex;
-  height: 100%;
 }
 
 .box-logo {
@@ -85,14 +76,12 @@ a:hover{
   align-self: center;
 }
 
-nav ul li{
-  padding: 0px 15px
-
+nav ul li {
+  padding: 0px 15px;
 }
 
 .box-login {
   width: 20%;
-  text-align: right;
 }
 
 .container {
@@ -107,46 +96,41 @@ nav ul li{
   height: 600px;
   background-image: url(../img/jumbo.png);
   background-position: center;
-  background-size: cover ;
+  background-size: cover;
 }
 
 .content-center {
-  width: 40%;
-  height: 80%;
   flex-direction: column;
-  
 }
 
-.title-white{
+.title-white {
   color: white;
   font-size: 2.5em;
   text-align: center;
   padding: 30px;
 }
 
-
-.text-white{
+.text-white {
   text-align: center;
   color: white;
   line-height: 30px;
 }
 
-.botton{
+.botton {
   margin: 0 auto;
   margin-top: 30px;
-
 }
 
-.btn-big{
-  background-color:#ffffff;
+.btn-big {
+  background-color: #ffffff;
   padding: 14px 30px;
   border-radius: 25px;
   text-align: center;
   margin-right: 15px;
 }
 
-.btn-big-black{
-  background-color:#272c34;
+.btn-big-black {
+  background-color: #272c34;
   padding: 14px 40px;
   border-radius: 25px;
   text-align: center;
@@ -160,18 +144,25 @@ nav ul li{
   width: 100%;
   height: 300px;
 }
-.block {
-  display: flex;
+
+.title-2 {
+  text-align: left;
+  color: #272c34;
+  font-size: 2.5em;
 }
 
-.block-img {
-  width: 60%;
-  height: 500px;
+.text-left{
+  text-align: left;
+  line-height: 30px;
+  margin-top: 25px;
 }
 
-.block-text {
-  width: 40%;
-  height: 500px;
+.block-text-2 {
+  padding-top: 30px;
+  
+}
+.block{
+  padding: 40px 80px;
 }
 
 .sfondo {
