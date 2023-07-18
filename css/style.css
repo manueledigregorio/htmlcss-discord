@@ -47,9 +47,7 @@ a:hover{
   background-color: goldenrod;
 }
 
-.debug-white {
-  background-color: white;
-}
+
 
 .debug-grey {
   background-color: gainsboro;
@@ -154,6 +152,9 @@ nav ul li{
   text-align: center;
 }
 
+.white {
+  background-color: white;
+}
 
 .block-blu {
   width: 100%;
