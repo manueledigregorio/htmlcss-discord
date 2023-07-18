@@ -3,6 +3,35 @@
   padding: 0;
   box-sizing: border-box;
 }
+ /*TAG GENERALI - INIZIO HEADER*/ 
+ ul{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+
+}
+
+a:hover{
+  text-decoration: none;
+  color: gainsboro;
+   
+
+}
+.btn-general{
+  background-color: white;
+  padding: 7px 16px;
+  border-radius: 25px;
+  text-align: center;
+  color: white;
+}
+
+.black{
+  color: #272c34;
+}
+
 
 .debug-blu {
   background-color: cornflowerblue;
@@ -53,6 +82,12 @@
   justify-content: center;
   align-self: center;
 }
+
+nav ul li{
+  padding: 0px 15px
+
+}
+
 .box-login {
   width: 20%;
   text-align: right;
@@ -63,6 +98,7 @@
   max-width: 1200px;
   margin: 0 auto;
 }
+/*FINE HEADER*/
 
 .hero {
   width: 100%;
